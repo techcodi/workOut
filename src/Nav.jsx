@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <nav>
       <menu className="menu">
-        <Link to="/home" className="nav-icon">
+        <Link to="/" className="nav-icon">
           <HomeOutlinedIcon />
           <span>Home</span>
         </Link>

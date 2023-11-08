@@ -45,3 +45,8 @@
   width: auto;
   height: 3rem;
 }
+@media screen and (max-width: 600px) {
+  .barchart {
+    width: 96vw;
+  }
+}

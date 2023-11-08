@@ -60,6 +60,7 @@ const Chart = () => {
       <div className="harts">
         <h2>Activities</h2>
         <BarChart
+          className="barchart"
           series={[
             { data: [3, 4, 1, 6, 5], stack: "A", label: "1st week" },
             { data: [4, 3, 1, 5, 8], stack: "A", label: "2nd week" },
@@ -67,7 +68,7 @@ const Chart = () => {
             { data: [2, 8, 1, 3, 1], stack: "B", label: "4th week" },
             { data: [10, 6, 5, 8, 9], label: "Series C1" },
           ]}
-          width={900}
+          width={1000}
           height={550}
         />
       </div>
