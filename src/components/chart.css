@@ -1,0 +1,47 @@
+.rep-card-1 {
+  background-image: url("/public/Rectangle\ 22447.png");
+  background-size: cover;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+}
+.rep-card-2 {
+  background-image: url("/public/Rectangle\ 22447\ \(1\).png");
+  background-size: cover;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+}
+.rep-card-3 {
+  background-image: url("/public/Rectangle\ 22447\ \(2\).png");
+  background-size: cover;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+}
+.rep-card-4 {
+  background-image: url("/public/Rectangle\ 22447\ \(3\).png");
+  background-size: cover;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+}
+.rep-card-1 img {
+  width: auto;
+}
+.r-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: 2rem;
+  color: #fff;
+  padding: 2rem 1rem;
+  width: 90vw;
+}
+.r-img-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.r-img-flex .love {
+  width: auto;
+  height: 3rem;
+}

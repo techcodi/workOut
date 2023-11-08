@@ -1,0 +1,56 @@
+.nav-icon {
+  display: flex;
+  gap: 1.5rem;
+  cursor: pointer;
+  color: #556;
+  text-decoration: none;
+}
+menu {
+  display: flex;
+  flex-direction: column;
+  color: #556;
+  padding: 0 1rem;
+  gap: 3rem;
+  margin-top: 8rem;
+  position: fixed;
+  height: 100vh;
+}
+nav {
+  box-shadow: 4px 2px 4px #0111;
+}
+.nav-icon:hover {
+  color: #5555f9;
+  transition: 300ms ease-in-out;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-icon {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  nav {
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: -1rem;
+  }
+  .menu {
+    position: absolute;
+    gap: 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    bottom: 0px;
+    width: 100%;
+    background-color: #ffff;
+    padding: 1rem;
+    font-weight: 600;
+  }
+  .nav-icon:hover {
+    padding-left: 0px;
+  }
+}

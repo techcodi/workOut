@@ -1,0 +1,177 @@
+.header-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .h-container {
+  padding: 2rem 3rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/public/Rectangle\ 22423.png");
+  background-size: cover;
+}
+header {
+  color: #fff;
+}
+.user-wlc {
+  margin-top: 4rem;
+}
+.user-wlc h2 {
+  font-size: 2.8rem;
+}
+.user-wlc p {
+  font-size: 1.3rem;
+}
+.weight-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  background-color: #000;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.weight-container p {
+  font-weight: 600;
+}
+/* ================================== */
+.header-under {
+  color: #555;
+  background-color: #fff;
+}
+.afro-man {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  margin: 1rem 4rem;
+  background-color: #c1e3f0;
+  border-radius: 20px;
+}
+.afro-man img {
+  width: 20%;
+}
+.afrovid h3 {
+  font-size: 2.2rem;
+}
+.afrovid .afro-btn {
+  background: #5555f9;
+  color: #fff;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: 600;
+}
+/* ====================== CATEGORY SECTION  */
+.cat-sec h2 {
+  color: #555;
+  font-size: 2.5rem;
+}
+.cat-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 5rem;
+}
+/* ================POPULAR */
+.popular-section {
+  color: #555;
+  padding: 1rem 2rem;
+}
+.p-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: 1rem;
+}
+.p-details {
+  display: flex;
+  flex-direction: column;
+}
+.p-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.onHover span {
+  margin-left: 1rem;
+  position: relative;
+  background-color: #000;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .cat-images {
+    padding-left: 10px;
+  }
+  .weight-container {
+    width: 80vw;
+    margin-left: -1rem;
+  }
+  .header-head {
+    width: 80vw;
+  }
+  .user-wlc h2 {
+    width: 95vw;
+  }
+  .afrovid .afro-btn {
+    display: none;
+  }
+  .afro-man {
+    padding: 0 1rem;
+    margin: 0px;
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  header .h-container {
+    padding: 2rem 6rem 2rem 2rem;
+  }
+  .weight-container {
+    padding: 1rem;
+  }
+  .popular-section {
+    padding-left: -2rem;
+  }
+  .p-container {
+    padding-right: 2rem;
+  }
+  .p-details img {
+    width: 50%;
+  }
+  .cat-images {
+    padding-left: 1rem;
+    gap: -2rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  .weight-container {
+    padding: 1rem 2rem;
+  }
+  header .h-container {
+    padding: 1rem;
+  }
+  .p-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .p-details img {
+    width: 80%;
+  }
+  .p-head p {
+    display: none;
+  }
+}
+@media screen and (max-width: 830px) {
+  .afro-man img {
+    width: auto;
+  }
+  .afro-man {
+    padding: 0 2rem;
+    margin: 1rem;
+  }
+  .afrovid h3 {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
